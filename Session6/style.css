@@ -1,0 +1,92 @@
+/*
+img{
+    position: absolute;
+    z-index: -1;
+}
+
+div{
+    width: 200px;
+    height: 100px;
+}
+.div1{
+    background: #080;
+    position: absolute;
+    z-index: 5;
+    top: 20px;
+}
+.div2{
+    background: #00f;
+    position: absolute;
+    z-index: 2;
+}
+
+input[type=search]{
+    height: 30px;
+}
+input[type=text]{
+    border: none;
+    color: #2f2f2f;
+    border-bottom: 2px solid #f00;
+}
+
+input[type=password] , input[type=search]{
+    border: none;
+    border-bottom: 2px solid #f00;
+}
+input[type=text]:focus , 
+input[type=password]:focus,
+input[type=search]:focus{
+    outline: none;
+    color: blue;
+}
+
+input[type=search]{
+    background-color: #fff;
+    background-image: url('search.png');
+    background-repeat: no-repeat;
+    background-position: 20px 12px;
+    padding-left: 50px;
+    
+}
+
+.tooltip{
+    position: relative;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.tooltip .text{
+    visibility: hidden;
+    width: 100px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 4px 0;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .text{
+    visibility: visible;
+}
+*/
+
+div{
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    -webkit-transform: translate(50px , 100px);
+    -moz-transform: translate(50px , 100px);
+    -o-transform: translate(50px , 100px);
+    -ms-transform: translate(50px , 100px);
+    transform: translate(50px , 100px);
+   /* transform: rotate(-45deg); 
+    transform: scale(2 , 2);
+    /*transform: skew(45deg , 90deg);*/
+    /*transform: skew(45deg);*/
+    /* ScaleX SkewY SkewX ScaleY TranslateX Translatey 
+    transform: matrix(1  , .5 , 0 , 1 , 0 , 0); */
+}
